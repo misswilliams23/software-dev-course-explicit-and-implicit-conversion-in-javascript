@@ -19,14 +19,25 @@ Use console.log() to clearly show the before-and-after type conversions.
 */
 
 
-let result = "5" - 2;
+let result = 5 - 2;
 console.log("The result is: " + result);
 
-let isValid = Boolean("false");
+let isValid = Boolean(false);
 if (isValid) {
     console.log("This is valid!");
 }
 
-let age = "25";
+let age = 25;
 let totalAge = age + 5;
 console.log("Total Age: " + totalAge);
+
+let practiceResult = "7" -4;
+console.log(practiceResult);
+let isValidAlso; 
+if (isValidAlso) {
+    console.log("This is also valid");
+}
+console.log(isValid);
+let secondAge;
+let fullAge = secondAge +5;
+console.log("Total Age: " + fullAge);
